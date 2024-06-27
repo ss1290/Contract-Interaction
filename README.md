@@ -17,4 +17,4 @@
 - Step 2 - npm i
 - Step 3 - npm run start
 - Step 3 - After website is loaded switch your network to ephemery tesnet in wallet
-- Step 4- Click on connect wallet on right side to connect your wallet to the website then you can test further
+- Step 4- Click on connect wallet on left side to connect your wallet to the website then you can test further
