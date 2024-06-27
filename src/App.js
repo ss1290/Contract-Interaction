@@ -85,6 +85,7 @@ function App() {
       }
     } catch (error) {
       setBalanceLoader(false);
+      setCheckBalanceAddress("");
       alert("Some error occured please try again");
     }
   };
@@ -92,8 +93,8 @@ function App() {
     e.preventDefault();
     if (web3 == null) {
       alert("Connect your wallet first");
-      setRecipentAdd(null);
-      setTokenAmount(null);
+      setRecipentAdd("");
+      setTokenAmount("");
     } else {
       setTransferLoader(true);
       const contract = new web3.eth.Contract(
