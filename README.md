@@ -10,11 +10,11 @@
 - (I will send some tokens to your address for testing purpose.)
 - Step 1- Add Ephemery testnet into your wallet for testing the website
 - credentials for adding Ephemery testnet:-
-  -Network name -> injected-metamask-ephemery
-  -New RPC URL -> https://otter.bordel.wtf/erigon
-  -Chain ID -> 39438133
-  -Currency symbol -> ETH
-  -Step 2 - npm i
-  -Step 3 - npm run start
-  -Step 3 - After website is loaded switch your network to ephemery tesnet in wallet
-  -Step 4- Click on connect wallet on right side to connect your wallet to the website then you can test further
+  - Network name -> injected-metamask-ephemery
+  - New RPC URL -> https://otter.bordel.wtf/erigon
+  - Chain ID -> 39438133
+  - Currency symbol -> ETH
+- Step 2 - npm i
+- Step 3 - npm run start
+- Step 3 - After website is loaded switch your network to ephemery tesnet in wallet
+- Step 4- Click on connect wallet on right side to connect your wallet to the website then you can test further
