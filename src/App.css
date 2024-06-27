@@ -1,0 +1,106 @@
+.connectWallet {
+  position: absolute;
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  align-self: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+.mainContainer {
+  flex-direction: column;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+.innerContainer {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 5px 5px 5px gray;
+  width: 40%;
+  align-self: center;
+  align-content: center;
+  padding: 10px 10px;
+  background-color: rgb(241, 235, 235);
+  justify-content: flex-start;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.innerText {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px gray;
+  align-self: center;
+  margin-bottom: 100px;
+}
+input {
+  border-radius: 10px;
+  padding: 10px 10px;
+  border-width: 1;
+  border-color: rgb(207, 201, 189);
+  font-size: medium;
+  width: 90%;
+  margin-bottom: 10px;
+}
+input::placeholder {
+  font-size: medium;
+}
+.formText {
+  color: black;
+  font-size: large;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.formButton {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: medium;
+  border-radius: 20px;
+  align-self: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.loader {
+  background-color: #04aa6d; /* Green */
+  padding: 10px 14px;
+  border-radius: 20px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.innerBalanceTextontainer {
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  box-shadow: 5px 5px 5px gray;
+  width: 40%;
+  padding: 10px 10px;
+  background-color: rgb(241, 235, 235);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
