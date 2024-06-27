@@ -28,14 +28,16 @@ function App() {
       if (window.ethereum) {
         _web3 = new Web3(window.ethereum);
         setWeb3(_web3);
+        const accounts = await _web3.eth.getAccounts();
+        setConnectedAccount(accounts[0]);
       } else if (window.web3) {
         _web3 = new Web3(window.web3.currentProvider);
         setWeb3(_web3);
+        const accounts = await _web3.eth.getAccounts();
+        setConnectedAccount(accounts[0]);
       } else {
         alert("You have to install MetaMask !");
       }
-      const accounts = await _web3.eth.getAccounts();
-      setConnectedAccount(accounts[0]);
     } catch (error) {
       console.log(error, "e");
     }
